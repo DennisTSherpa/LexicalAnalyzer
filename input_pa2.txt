@@ -1,0 +1,21 @@
+# Various valid and invalid tokens.
+identifier
+_identifier
+identifier01234
+01234identifier
+_01234identifier
+i-d+entifier
+3.14159
+15 * 27 % 5
+15*27%5
+function f : int -> int
+f(x) = 1, if x % 2 = 0; 2, if x % 3 = 0; 0, otherwise.
+procedure print : string
+print(s) =
+    for c in s, put(s).
+let z : string = "Hello, World!" in print(z); 0.
+let r : rational = 1.441 in 2 * r.
+function g : rational -> int
+g(num) = 1, if num >= 0.5; 0, otherwise.
+@!
+
